@@ -1,0 +1,84 @@
+.c-footer {
+    padding: 1.5rem 0;
+    background-color: #f6f9f9;
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        @include media-breakpoint-down(xs) {
+            justify-content: center;
+            align-items: center;
+            display: block;
+        }
+        @include media-breakpoint-down(sm) {
+            justify-content: space-between;
+        }
+    }
+    .copyring {
+        font-family: $g-font-family-base;
+        font-size: 1rem;
+        font-weight: 400;
+        color: $g-color-alt;
+        @include media-breakpoint-down(xs) {
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+    }
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .facebook {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: $g-color-body-alt;
+        margin-right: 5px;
+        transition: .2s linear;
+        &:hover {
+            background-color: #3b5998;
+        }
+    }
+    .twitter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: $g-color-body-alt;
+        margin-right: 5px;
+        transition: .2s linear;
+        &:hover {
+            background-color: #55acee;
+        }
+    }
+    .google {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+        background-color: $g-color-body-alt;
+        transition: .2s linear;
+        &:hover {
+            background-color: #dd4b39;
+        }
+    }
+    .linke {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: $g-color-body-alt;
+        transition: .2s linear;
+        &:hover {
+            background-color: #0976b4;
+        }
+    }
+}

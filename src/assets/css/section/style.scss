@@ -1,0 +1,41 @@
+.style-d {
+    .subtitle {
+        font-family: $g-font-family-base;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 2;
+        font-weight: 400;
+        color: $g-color-primary;
+        @include media-breakpoint-down(xs) {
+            font-size: 1.5rem;
+        }
+    }
+    .section-button {
+        text-align: center;
+    }
+}
+
+.style-alt {
+    .subtitle {
+        font-family: $g-font-family-base;
+        text-align: center;
+        font-size: 2.5rem;
+        line-height: 1;
+        font-weight: 400;
+        color: $g-color;
+        @include media-breakpoint-down(xs) {
+            font-size: 1.5rem;
+        }
+    }
+    .text {
+        font-family: $g-font-family-base;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 2;
+        font-weight: 400;
+        color: $g-color-alt;
+        @include media-breakpoint-down(xs) {
+            font-size: 1rem;
+        }
+    }
+}

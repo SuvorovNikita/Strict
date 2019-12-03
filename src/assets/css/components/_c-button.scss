@@ -1,0 +1,25 @@
+.c-button {
+    user-select: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    &.style-d {
+        font-family: $g-font-family-base;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: $g-color-primary;
+        background-color: $g-color-body-alt;
+        transition: background-color .2s linear;
+    }
+    &.padding {
+        padding: 10px 30px;
+    }
+    &:hover {
+        background-color: $g-color-body;
+    }
+}

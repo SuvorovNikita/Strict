@@ -1,0 +1,58 @@
+.c-form {
+    &__row {
+        margin-bottom: $g-value-padding;
+    }
+}
+
+.c-form-field {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+    label {
+        cursor: pointer;
+        user-select: none;
+        font-family: Lato;
+        font-size: 15px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    input,
+    select,
+    textarea {
+        background: none;
+        font-family: Lato;
+        font-size: 15px;
+        font-weight: 400;
+        color: #999999;
+        padding: 0 20px;
+        max-width: 553px;
+        height: 40px;
+        width: 100%;
+        display: block;
+        position: relative;
+        appearance: none;
+        border: 1.0px solid #999999;
+        margin-bottom: 20px;
+        &:hover {
+            color: #fff;
+            border: 1.0px solid #fff;
+        }
+        option {
+            color: $g-color-body;
+        }
+    }
+    textarea {
+        resize: none;
+        padding-top: 20px;
+        max-width: 553px;
+        height: 160px;
+        border: 1.0px solid #999999;
+    }
+    input.checkbox {
+        width: 15px;
+        height: 15px;
+        background-color: rgba(246, 249, 249, 0.54);
+        border: 1.0px solid #9aa1ab;
+    }
+}
